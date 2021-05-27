@@ -1,6 +1,6 @@
-# Repositorio template para un workshop en RIIAA '20
+# Repositorio template para un workshop en RIIAA 2021
 
-Este repositorio de github contiene material para un workshop plantilla dentro de la [RIIAA '20](https://riiaa.org/). Para utilizarlo en tu propio taller, sigue a la siguiente sección. Nunca has usado github o markdown o jupyter/colab?
+Este repositorio de github contiene material para un workshop plantilla dentro de la [RIIAA 2021](https://riiaa.org/). Para utilizarlo en tu propio taller, sigue a la siguiente sección. Nunca has usado github o markdown o jupyter/colab?
 Hay muchas guías en línea para usar estas tecnologías, algunas recomendaciones:
 * Github: https://guides.github.com/activities/hello-world/.
 * Markdown: https://guides.github.com/features/mastering-markdown/.
@@ -33,7 +33,7 @@ Manda un [pull request](https://help.github.com/en/articles/about-pull-requests)
 
 **Las siguientes instrucciones se pueden copiar**.
 
-La mayoría de las prácticas de los talleres se desarrollarán en Python 3.7+ usando la biblioteca [Tensorflow 2.0](https://www.tensorflow.org/), que adopta [Keras](https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/keras) como interfaz de alto nivel para construir y entrenar redes neuronales.
+La mayoría de las prácticas de los talleres se desarrollarán en Python 3.7+.
 
 Cosas para preparar
 * Una laptop.
@@ -63,15 +63,15 @@ En [Colab](https://colab.research.google.com) puedes crear un nuevo *notebook*, 
 Para tener la versión de Python 3.7+ y todas las bibliotecas instaladas en cualquier plataforma, recomendamos que uses [**Anaconda**](https://www.anaconda.com/) y generes un ambiente con el archivo `environment.yml` de este repositorio usando una terminal y el comando:
 
 ```
-conda env create -n riiaa19 -f environment_cpu.yml
+conda env create -n riiaa2021 -f environment_cpu.yml
 ```
 
-Cambia el nombre `riia19` por tu nombre favorito para el ambiente. Si cuentas con un GPU Nvidia y deseas aprovecharlo cambia el archivo `environment_cpu.yml` a `environment_gpu.yml`.
+Cambia el nombre `riia2021` por tu nombre favorito para el ambiente. Si cuentas con un GPU y deseas aprovecharlo cambia el archivo `environment_cpu.yml` a `environment_gpu.yml`.
 
 Para activar el ambiente que creaste, en una terminal ingresa el comando
 
 ```
-conda activate riiaa19
+conda activate riiaa2021
 ```
 
 Una vez activado, puedes ejecutar la aplicación de Jupyter Notebook
@@ -86,7 +86,7 @@ Este comando abrirá una pestaña o ventana en tu navegador web, como se muestra
 
 Al igual que en Google Colab, puedes crear un nuevo *notebook* seleccionando el botón `New` y posteriormente `Python 3`. De forma alternativa, puedes abrir uno existente seleccionando el archivo del *notebook* (con extensión `.ipynb`) dentro del directorio donde ejecutaste Jupyter Notebook. Con el botón `Upload` agregas archivos que se encuentran en otra parte de tu computadora a este directorio. Para cerrar Jupyter Notebook, presiona el botón `Quit` y posteriormente cierra la pestaña o ventana de tu navegador web.
 
-Para desactivar el ambiente `riiaa19` de Anaconda simplemente haz
+Para desactivar el ambiente `riiaa2021` de Anaconda simplemente haz
 
 ```
 conda deactivate
